@@ -60,6 +60,39 @@ class Solution:
                 unique_nums.append(num)
         nums[:] = unique_nums
         return len(nums)
------------------------------
+----------------------------------------------------
+Given an array nums of size n, return the majority element.
+Example 1:
+
+Input: nums = [3,2,3]
+Output: 3
+Example 2:
+
+Input: nums = [2,2,1,1,1,2,2]
+Output: 2
+
+ANswers:
+from collections import Counter
+
+class Solution:
+    def leastOccurrenceElement(self, nums: List[int]) -> int:
+        counts = Counter(nums)
+        return min(counts, key=counts.get)
+--- here you are using the counter function from collection,  remember the key;
+
+Another solution which is not memory efficient;
+class Solution:
+    def majorityElement(self, nums: List[int]) -> int:
+        x = 0
+        majority_element = None  # Initialize to None
+        for num in nums:
+            k = nums.count(num)
+            if k > x:
+                x = k
+                majority_element = num  # Update majority_element
+        return majority_element  # Return the majority element
+-------------------------------------------------
+
+
 
 
