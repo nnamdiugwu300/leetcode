@@ -24,28 +24,4 @@ class Solution:
         
         # Sort nums1 in place
         nums1.sort()
-----
-Adding Elements:
-append(element): Adds an element to the end of the list.
-extend(iterable): Extends the list by appending elements from the iterable.
-insert(index, element): Inserts an element at the specified index.
-Removing Elements:
-pop([index]): Removes and returns the element at the specified index. If no index is provided, removes and returns the last element.
-remove(element): Removes the first occurrence of the specified element from the list.
-clear(): Removes all elements from the list.
-Accessing Elements:
-Indexing: Access elements by their index, e.g., my_list[0].
-Slicing: Access a subset of elements using slice notation, e.g., my_list[1:4].
-index(element): Returns the index of the first occurrence of the specified element.
-count(element): Returns the number of occurrences of the specified element in the list.
-Sorting and Reversing:
-sort(): Sorts the elements of the list in ascending order.
-reverse(): Reverses the order of the elements in the list.
-Copying and Joining:
-copy(): Returns a shallow copy of the list.
-join(iterable): Concatenates the elements of the iterable with the list.
-Other Operations:
-len(): Returns the number of elements in the list.
-min(): Returns the smallest element in the list.
-max(): Returns the largest element in the list.
-sum(): Returns the sum of all elements in the list.
+
