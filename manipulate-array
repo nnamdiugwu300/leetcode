@@ -27,3 +27,6 @@ sum(): Returns the sum of all elements in the list.
 del nums1[m:] -- HEre every element after the count of m, will be deleted from the list
        nums[:] = unique_nums ; when you run this code, the array nums will be replaced by another array unique_nums content. 
        also, whenever you call the nums array, the new array is waht will show up. ALso keep in mind that unique nums is a new array.
+strip() this will remove all spaces/white space in the front and back of a given string
+split(" ") this will seperate the strings or elements wherever it sights the given parameter.
+here space is the passed parameter
