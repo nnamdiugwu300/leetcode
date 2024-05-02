@@ -77,7 +77,7 @@ from collections import Counter
 class Solution:
     def leastOccurrenceElement(self, nums: List[int]) -> int:
         counts = Counter(nums)
-        return min(counts, key=counts.get)
+        return max(counts, key=counts.get)
 --- here you are using the counter function from collection,  remember the key;
 
 Another solution which is not memory efficient;
