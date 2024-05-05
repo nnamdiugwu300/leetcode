@@ -30,3 +30,5 @@ del nums1[m:] -- HEre every element after the count of m, will be deleted from t
 strip() this will remove all spaces/white space in the front and back of a given string
 split(" ") this will seperate the strings or elements wherever it sights the given parameter.
 here space is the passed parameter
+result = [1] * length This will output a new list [1, 1, 1, 1, 1]
+
